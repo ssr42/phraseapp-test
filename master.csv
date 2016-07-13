@@ -1,6 +1,6 @@
-common.address,Address,,A address description
-common.birthDate,Birthdate,,A birthdate description
-common.identity,Identity,,A identity description
+common.address,Address,A address description
+common.birthDate,Birthdate,A birthdate description
+common.identity,Identity,A identity description
 common.name,Name,,A Name description
-searchPatron.learnHowToSearch,Learn how to search for patrons,,A short description on how to search
-searchPatron.noMatchesForSearch,"No matches for search '<strong>{{ ctx.state.SearchResult.Query}}</strong>'.",,A short description about no search result.
+searchPatron.learnHowToSearch,Learn how to search for patrons,A short description on how to search
+searchPatron.noMatchesForSearch,"No matches for search '<strong>{{ ctx.state.SearchResult.Query}}</strong>'.",A short description about no search result.
