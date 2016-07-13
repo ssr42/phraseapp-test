@@ -4,9 +4,25 @@ phraseapp:
   
   push:
     sources:
-    - file_format: "nested_json"
-    - file: "./i18n/*.json"
+    - file: "./i18n/axi.json"
+      params:
+        file_format: "nested_json"
+        locale_id: 273dxbf9e3eb422fe1a33bb2fad87af1
+    - file: "./i18n/en.json"
+      params:
+        file_format: "nested_json"
+        locale_id: 47491f8858c92a320f439ae52fac50cf
+    - file: "./i18n/sv.json"
+      params:
+        file_format: "nested_json"
+        locale_id: f934329d3472d946951d961c1d17da67
+    - file: "./i18n/da.json"
+      params:
+        file_format: "nested_json"
+        locale_id: 264ec4140306f05ec92a6c24ac8cbfac
   pull:
     targets:
-    - file_format: "csv"
-    - file: "./i18n/<locale_name>.csv"
+    - file: "./master.csv"
+      params:
+        file_format: "csv"
+        locale_id: 273dxbf9e3eb422fe1a33bb2fad87af1
