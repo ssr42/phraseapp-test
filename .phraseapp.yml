@@ -4,29 +4,34 @@ phraseapp:
   file_format: "csv"
   pull:
     targets:  
-    - file: "./i18n/axi.json"
-      params:
-        file_format: "nested_json"
-        locale_id: 626a0224e5e9620fbee69ceea2a1edae
-    - file: "./i18n/en.json"
-      params:
-        file_format: "nested_json"
-        locale_id: e5c60928f8f0fb2e34c75cb54b838220
-    - file: "./i18n/sv.json"
-      params:
-        file_format: "nested_json"
-        locale_id: 5b980190630bae4feefd272f24f5bbfb
-    - file: "./i18n/da.json"
-      params:
-        file_format: "nested_json"
-        locale_id: 81bd0e25f7d4cdd3da82d980db24534a
+      -
+       file: "./i18n/axi.json"
+       params:
+         file_format: "nested_json"
+         locale_id: 626a0224e5e9620fbee69ceea2a1edae
+      -
+       file: "./i18n/en.json"
+       params:
+         file_format: "nested_json"
+         locale_id: e5c60928f8f0fb2e34c75cb54b838220
+      -
+       file: "./i18n/sv.json"
+       params:
+         file_format: "nested_json"
+         locale_id: 5b980190630bae4feefd272f24f5bbfb
+      -
+       file: "./i18n/da.json"
+       params:
+         file_format: "nested_json"
+         locale_id: 81bd0e25f7d4cdd3da82d980db24534a
   push:
     sources:
-    - file: "./master.csv"
-      params:
-        file_format: "csv"
-        format_options:
-          key_index: 1
-          translation_index: 2
-          comment_index: 3
-        locale_id: 626a0224e5e9620fbee69ceea2a1edae
+      - 
+       file: "./master.csv"
+       params:
+         file_format: "csv"
+         format_options:
+           key_index: 1
+           translation_index: 2
+           comment_index: 3
+         locale_id: 626a0224e5e9620fbee69ceea2a1edae
