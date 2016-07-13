@@ -1,28 +1,28 @@
 phraseapp:
   access_token: "da610a054657f9aec5798ea6b25ed755d3aab0f767fb0f860a1d29dd0c22d238"
-  project_id: "a6e1df1edc1917106cff89b0dbbc3b2f"
+  project_id: "d5121075da19a296525da457398a569f"
   
   push:
     sources:
     - file: "./i18n/axi.json"
       params:
         file_format: "nested_json"
-        locale_id: 273dxbf9e3eb422fe1a33bb2fad87af1
+        locale_id: 626a0224e5e9620fbee69ceea2a1edae
     - file: "./i18n/en.json"
       params:
         file_format: "nested_json"
-        locale_id: 47491f8858c92a320f439ae52fac50cf
+        locale_id: e5c60928f8f0fb2e34c75cb54b838220
     - file: "./i18n/sv.json"
       params:
         file_format: "nested_json"
-        locale_id: f934329d3472d946951d961c1d17da67
+        locale_id: 5b980190630bae4feefd272f24f5bbfb
     - file: "./i18n/da.json"
       params:
         file_format: "nested_json"
-        locale_id: 264ec4140306f05ec92a6c24ac8cbfac
+        locale_id: 81bd0e25f7d4cdd3da82d980db24534a
   pull:
     targets:
     - file: "./master.csv"
       params:
         file_format: "csv"
-        locale_id: 273dxbf9e3eb422fe1a33bb2fad87af1
+        locale_id: 626a0224e5e9620fbee69ceea2a1edae
