@@ -28,6 +28,6 @@ phraseapp:
         key_index: 1
         translation_index: 2
         comment_index: 3
-        column_separator: ,
-        quote_char: \"
+        column_separator: ","
+        quote_char: "\""
         locale_id: 626a0224e5e9620fbee69ceea2a1edae
