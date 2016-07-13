@@ -1,0 +1,10 @@
+phraseapp:
+  access_token: "da610a054657f9aec5798ea6b25ed755d3aab0f767fb0f860a1d29dd0c22d238"
+  project_id: "a6e1df1edc1917106cff89b0dbbc3b2f"
+  file_format: "nested_json"
+  push:
+    sources:
+    - file: "./i18n/*.json"
+  pull:
+    targets:
+    - file: "./i18n/<locale_name>.json"
