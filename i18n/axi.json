@@ -1,0 +1,12 @@
+{
+  "common": {
+    "address": "Address",
+    "birthDate": "Birthdate",
+    "identity": "Identity",
+    "name": "Name"
+  },
+  "searchPatron": {
+    "learnHowToSearch": "Learn how to search for patrons",
+    "noMatchesForSearch": "No matches for search '<strong>{{ ctx.state.SearchResult.Query}}</strong>'."
+  }
+}
