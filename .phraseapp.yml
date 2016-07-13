@@ -2,7 +2,7 @@ phraseapp:
   access_token: "da610a054657f9aec5798ea6b25ed755d3aab0f767fb0f860a1d29dd0c22d238"
   project_id: "d5121075da19a296525da457398a569f"
   file_format: "csv"
-  push:
+  pull:
     sources:
     - file: "./i18n/axi.json"
       params:
@@ -20,7 +20,7 @@ phraseapp:
       params:
         file_format: "nested_json"
         locale_id: 81bd0e25f7d4cdd3da82d980db24534a
-  pull:
+  push:
     targets:
     - file: "./master.csv"
       params:
