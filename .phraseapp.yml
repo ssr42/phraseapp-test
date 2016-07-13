@@ -25,7 +25,7 @@ phraseapp:
     - file: "./master.csv"
       params:
         file_format: "csv"
-        format-options:
+        format_options:
           key_index: 1
           translation_index: 2
           comment_index: 3
