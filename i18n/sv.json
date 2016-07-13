@@ -1,0 +1,12 @@
+{
+  "common": {
+    "address": "MinAdress",
+    "birthDate": "Födelsedatum",
+    "identity": "Identitet",
+    "name": "MitNamn"
+  },
+  "searchPatron": {
+    "learnHowToSearch": "lära att söka",
+    "noMatchesForSearch": "Inga träffar för sökfrågan '{{query}}'."
+  }
+}
