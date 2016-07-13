@@ -1,7 +1,7 @@
 phraseapp:
   access_token: "da610a054657f9aec5798ea6b25ed755d3aab0f767fb0f860a1d29dd0c22d238"
   project_id: "d5121075da19a296525da457398a569f"
-  
+  file_format: "csv"
   push:
     sources:
     - file: "./i18n/axi.json"
