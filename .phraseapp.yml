@@ -3,7 +3,7 @@ phraseapp:
   project_id: "d5121075da19a296525da457398a569f"
   file_format: "csv"
   pull:
-    sources:
+    targets:  
     - file: "./i18n/axi.json"
       params:
         file_format: "nested_json"
@@ -21,7 +21,7 @@ phraseapp:
         file_format: "nested_json"
         locale_id: 81bd0e25f7d4cdd3da82d980db24534a
   push:
-    targets:
+    sources:
     - file: "./master.csv"
       params:
         file_format: "csv"
